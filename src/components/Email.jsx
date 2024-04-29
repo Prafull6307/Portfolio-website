@@ -15,6 +15,9 @@ const Email = () => {
       }, (error) => {
         console.log(error.text);
       });
+      setAdd("");
+      setMail("");
+      setMess("");
   };
 
   return (
@@ -35,10 +38,10 @@ const Email = () => {
         </div>
         <div className="w-full flex justify-center py-4">
           <form ref={form} onSubmit={sendEmail} className='flex flex-col space-y-4 px-5 border-2 rounded-lg shadow-md mb-8 md:w-64 bg-yellow-200'>
-            <input type="text" name="name" placeholder='Your Full Name' value={add} onChange={(e) => setAdd(e.target.value)} required className="rounded-lg bg-white p-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 shadow-md" />
+            <input type="text" name="name" placeholder='Your Full Name' value={add} onChange={(e) => setAdd(e.target.value) } required className="rounded-lg bg-white p-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 shadow-md" />
             <input type="email" name="email" placeholder='Your Email' value={mail} onChange={(e) => setMail(e.target.value)} required className="rounded-lg bg-white p-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 shadow-md" />
             <textarea name="message" rows="7" placeholder='Your Message' value={mess} onChange={(e) => setMess(e.target.value)} required className="rounded-lg bg-white p-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 shadow-md"></textarea>
-            <button type="submit" className="btn-primary rounded-full bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium text-white py-1.5 w-40 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 shadow-md">Send Message</button>
+            <button type="submit" className="btn-primary rounded-full bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium text-white py-1.5 md:w-auto w-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 shadow-md">Send Message</button>
           </form>
         </div>
       </section>

@@ -43,7 +43,7 @@ const About = () => {
           </div>
 
           <div className="flex justify-center lg:justify-start">
-            <button type="button" className="text-white bg-black hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-20 my-3 me-2 mb-2 hover:shadow-lg focus:outline-none shadow-md delay-100 animate-bounce">Contact Us</button>
+            <button type="button" className="text-white bg-black hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-0 lg:ml-20 my-3 me-2 mb-2 hover:shadow-lg focus:outline-none shadow-md delay-100 animate-bounce">Contact Us</button>
           </div>
         </div>
 
