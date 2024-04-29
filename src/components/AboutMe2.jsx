@@ -12,7 +12,7 @@ const AboutMe2 = () => {
   }, []);
 
   return (
-    <div className="container mx-auto py-4">
+    <div className="container mx-auto py-4 bg-yellow-200"> {/* Changed bg-gray-200 to bg-yellow-200 */}
       <div className="main bg-gray-200 rounded-lg shadow-md p-8">
         <h1 className="text-center text-lg font-semibold text-gray-700 mb-4">
           My GitHub repository:
