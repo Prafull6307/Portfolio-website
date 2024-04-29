@@ -15,7 +15,7 @@ const Recent = () => {
             </div>
             <h1 className="my-4 font-semibold text-gray-800 text-center">This is my portfolio</h1>
             <div className="flex justify-center">
-              <a href="https://github.com/Prafull6307" className="btn bg-gray-600 text-white rounded px-2 py-1 mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300">Github</a>
+              <a href="https://github.com/Prafull6307" className="btn bg-gray-600 text-white rounded px-2 py-1 mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300">Git-hub</a>
               <a href="https://prafull6307.github.io/Bubble-game/" className="btn bg-indigo-500 text-white rounded px-2 py-1 mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-600 duration-300">Demo</a>
             </div>
           </article>
@@ -25,7 +25,7 @@ const Recent = () => {
             </div>
             <h1 className="my-4 font-semibold text-gray-800 text-center">This is my portfolio</h1>
             <div className="flex justify-center">
-              <a href="https://github.com/Prafull6307" className="btn bg-gray-600 text-white rounded px-2 py-1 mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300">Github</a>
+              <a href="https://github.com/Prafull6307" className="btn bg-gray-600 text-white rounded px-2 py-1 mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 duration-300">Git-hub</a>
               <a href="" className="btn bg-indigo-500 text-white rounded px-2 py-1 mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-600 duration-300">Demo</a>
             </div>
           </article>
