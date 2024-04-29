@@ -1,6 +1,6 @@
 import React from 'react';
-import IMG1 from '../assets/IMG1.png';
-import IMG2 from '../assets/IMG2.png';
+import IMG1 from './images/IMG1.png'
+import IMG2 from './images/IMG2.png'
 
 const Recent = () => {
   return (
