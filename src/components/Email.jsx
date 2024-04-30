@@ -21,9 +21,9 @@ const Email = () => {
   };
 
   return (
-    <>
-      <h1 className="bg-yellow-200 text-center py-4 font-bold text-2xl underline">Contact Me</h1>
-      <section className="container mx-auto py-9 flex flex-wrap justify-center space-y-4 md:space-y-0 md:space-x-4 bg-yellow-200">
+    <div className="bg-yellow-200 min-h-screen">
+      <h1 className="text-center py-4 text-3xl font-semibold ">Contact Me</h1>
+      <section className="container mx-auto py-9 flex flex-wrap justify-center space-y-4 md:space-y-0 md:space-x-4">
         <div className="bg-black rounded-lg shadow-lg text-white text-center px-4 py-2 hover:bg-gray-800 transition duration-300 md:w-64">
           <i className="fab fa-whatsapp py-2 text-2xl"></i>
           <h1 className='text-lg'>Contact me on WhatsApp: <span className="font-bold text-yellow-400">8808032024</span></h1>
@@ -45,7 +45,7 @@ const Email = () => {
           </form>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

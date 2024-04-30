@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom';
 
 const Header = () => { 
   return (
@@ -16,7 +16,7 @@ const Header = () => {
         <NavLink to="/Contact" className="nav-link" activeClassName="active-link">Contact</NavLink>
       </div>
       <div className="hire-button">
-        <button className="button">Hire</button>
+       <Link to="/Profile"><button className="button">Hire</button></Link> 
       </div>
     </div>
   );

@@ -9,6 +9,7 @@ import Me from './components/Me.jsx'
 import Recent from './components/Recent.jsx'
 import Email from './components/Email.jsx'
 import AboutMe2 from './components/AboutMe2.jsx'
+import Profile from './components/Profile.jsx'
 const router =createBrowserRouter([
   {
   path: '/',
@@ -33,6 +34,11 @@ const router =createBrowserRouter([
  {
   path:"Contact",
   element:<Email />
+
+ },
+ {
+  path:"Profile",
+  element:<Profile />
 
  }
 
